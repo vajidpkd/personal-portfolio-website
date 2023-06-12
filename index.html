@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Abdul vajid P</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="assets/css/responsive.css" />
+    <link rel="stylesheet" href="assets/aos/aos.css" />
+    <script
+      src="https://kit.fontawesome.com/d39e1db9f2.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+
+  <body>
+    <!-- --------header-------- -->
+
+    <div id="header">
+      <div class="container">
+        <nav>
+          <img class="logo" src="assets/images/logo.png" alt="" />
+          <ul id="sidemenu">
+            <li><a href="#header">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#portifolio">Portfolio</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+          </ul>
+          <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="headr-text">
+          <p>Full Stack webdevoleper</p>
+          <h1>
+            Hi, I'm <span>Abul</span> <br />
+            Vajid From India
+          </h1>
+        </div>
+      </div>
+    </div>
+
+    <!-- ---------abut section---------- -->
+
+    <div id="about" data-aos="fade-up" data-aos-delay="200">
+      <div class="container">
+        <div class="row">
+          <div class="about-col-1">
+            <img src="assets/images/user.png" alt="" />
+          </div>
+          <div class="about-col-2">
+            <h1 class="sub-title">Abot Me</h1>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem eaque
+              non, accusamus inventore rerum corporis earum accusantium animi
+              saepe possimus similique asperiores, velit dignissimos voluptates
+              sed, natus tempora quae molestias.Lorem ipsum dolor sit amet
+              consectetur adipisicing elit. Rem eaque non, accusamus inventore
+              rerum corporis earum accusantium animi saepe possimus similique
+              asperiores, velit dignissimos voluptates sed, natus tempora quae
+              molestias.
+            </p>
+
+            <div class="tab-titles">
+              <p class="tab-links active-link" onclick="opentab('skills')">
+                Skills
+              </p>
+              <p class="tab-links" onclick="opentab('project')">Project</p>
+              <p class="tab-links" onclick="opentab('education')">Education</p>
+            </div>
+
+            <div class="tab-contents active-tab" id="skills">
+              <ul>
+                <li><span>UI/UX</span><br />Designig Web/App interfaces</li>
+                <li><span>Web Developmetn</span><br />Web app Developmetn</li>
+                <li>
+                  <span>App Developmet</span><br />Building Android/ios apps
+                </li>
+              </ul>
+            </div>
+
+            <div class="tab-contents" id="project">
+              <ul>
+                <li>
+                  <span>Personla Website</span><br />Usig html ,css and js
+                </li>
+                <li>
+                  <span>Ecomers website</span><br />thi website a laptope only
+                  websit
+                </li>
+                <li>
+                  <span>School website</span><br />its a online institue wesite
+                </li>
+              </ul>
+            </div>
+
+            <div class="tab-contents" id="education">
+              <ul>
+                <li><span>2017-2018</span><br />10th in hikamiyya</li>
+                <li><span>2019-2021</span><br />12th in manjeri boys</li>
+                <li>
+                  <span>2022</span><br />it support funtamentals in couresra
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <!-- --------services--------- -->
+
+    <div id="services">
+      <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+          <div>
+            <i class="fa-solid fa-code"></i>
+            <h2>Web Design</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+              Aspernatur maiores error, cupiditate vitae accusantium hic ipsum!
+              Veritatis, optio consequatur.
+            </p>
+            <a href="#">Learn more</a>
+          </div>
+          <div>
+            <i class="fa-solid fa-crop-simple"></i>
+            <h2>UI/UX Design</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+              Aspernatur maiores error, cupiditate vitae accusantium hic ipsum!
+              Veritatis, optio consequatur.
+            </p>
+            <a href="#">Learn more</a>
+          </div>
+          <div>
+            <i class="fa-brands fa-app-store"></i>
+            <h2>App Design</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+              Aspernatur maiores error, cupiditate vitae accusantium hic ipsum!
+              Veritatis, optio consequatur.
+            </p>
+            <a href="#">Learn more</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- --------portifolio---------- -->
+
+    <div id="portifolio">
+      <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+          <div class="work">
+            <img src="assets/images/work-1.png" alt="" />
+            <div class="layer">
+              <h3>Social Media App</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                Laboriosam voluptatum, reru abudl vajid
+              </p>
+              <a href="#"
+                ><i class="fa-sharp fa-solid fa-arrow-up-right-from-square"></i
+              ></a>
+            </div>
+          </div>
+          <div class="work">
+            <img src="assets/images/work-2.png" alt="" />
+            <div class="layer">
+              <h3>Social Media App</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                Laboriosam voluptatum, reru hambeen dog
+              </p>
+              <a href="#"
+                ><i class="fa-sharp fa-solid fa-arrow-up-right-from-square"></i
+              ></a>
+            </div>
+          </div>
+          <div class="work">
+            <img src="assets/images/work-3.png" alt="" />
+            <div class="layer">
+              <h3>Social Media App</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                Laboriosam voluptatum, reru hddd mohammed
+              </p>
+              <a href="#"
+                ><i class="fa-sharp fa-solid fa-arrow-up-right-from-square"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+        <div>
+          <a class="btn" href="#">Seen More</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- ----------contact------------ -->
+
+    <div id="contact">
+      <div class="container">
+        <div class="row">
+          <div class="contact-left">
+            <h1 class="sub-title">Contact Me</h1>
+            <p>
+              <i class="fa-solid fa-paper-plane"></i> abulvajid040@gmail.com
+            </p>
+            <p><i class="fa-solid fa-square-phone"></i> 9400347415</p>
+            <div class="social-icons">
+              <a href="#"><i class="fa-brands fa-github"></i></a>
+              <a href="#"><i class="fa-brands fa-twitter-square"></i></a>
+              <a href="#"><i class="fa-brands fa-instagram"></i></a>
+              <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+            </div>
+            <a href="assets/images/my-cv.pdf" download class="btn btn2"
+              >Download CV</a
+            >
+          </div>
+          <div class="contact-right">
+            <form name="submit-to-google-sheet">
+              <input
+                type="text"
+                name="Name"
+                placeholder="Enter Your Name"
+                required
+              />
+              <input
+                type="email"
+                name="Email"
+                placeholder="Enter Your Email"
+                required
+              />
+              <textarea
+                name="Message"
+                rows="6"
+                placeholder="Type Your Message"
+              ></textarea>
+              <button type="submit" class="btn btn2">Sumbit</button>
+            </form>
+            <span id="msg"></span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- -------footer-------- -->
+
+    <div class="copyright">
+      <p>
+        Copyright © Abul.Made with <i class="fa-solid fa-heart"></i> by Abudl
+        Vajid
+      </p>
+    </div>
+
+    <script src="index.js"></script>
+  </body>
+</html>
